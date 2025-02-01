@@ -1,0 +1,65 @@
+{
+    "nav": {
+      "home": "Home",
+      "controlPanel": "Control Panel"
+    },
+    "home": {
+      "title": "Choose Your Cloud Platform",
+      "subtitle": "Select your preferred cloud platform to get started with the environment setup",
+      "backButton": "Back to Platform Selection"
+    },
+    "platforms": {
+      "paperspace": {
+        "name": "Paperspace",
+        "description": "GPU cloud platform with both subscription and on-demand pricing"
+      },
+      "vastai": {
+        "name": "Vast.ai",
+        "description": "Rent GPUs at the lowest prices for machine learning and AI tasks."
+      },
+      "hengyuan": {
+        "name": "Hengyuan Cloud",
+        "description": "Cheap GPU cloud computing platorm based in China"
+      }
+    },
+    "selected": "Selected",
+    "paperspace": {
+      "apiKey": "API Key",
+      "apiKeyPlaceholder": "Enter your Paperspace API key",
+      "apiKeyHelp": "You can find your API key in the Paperspace console under API Keys.",
+      "tabs": {
+        "login": "Login",
+        "gpu": "GPU Selection",
+        "environment": "Environment",
+        "control": "Control"
+      },
+      "syncGPUs": "Sync Available GPUs",
+      "syncing": "Syncing...",
+      "noGPUs": "No GPUs available. Click sync to fetch available GPUs.",
+      "gpuUnavailable": "(Currently unavailable, may need to wait)",
+      "gpuNotUsable": "(Not usable with your subscription tier)",
+      "errors": {
+        "syncFailed": "Failed to sync GPU list. Please try again."
+      },
+      "envPlaceholder": "Environment configuration panel coming soon.",
+      "controlPlaceholder": "Control panel coming soon.",
+      "auth": {
+        "title": "Sign in to Paperspace",
+        "email": "Email",
+        "emailPlaceholder": "Enter your email",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "passwordHelp": "Use your Paperspace account password",
+        "login": "Sign In",
+        "authenticating": "Signing in...",
+        "createAccount": "Create an account",
+        "forgotPassword": "Forgot password?",
+        "error": "Invalid email or password",
+        "loggedInAs": "Logged in as",
+        "notLoggedIn": "Not logged in",
+        "logout": "Sign out"
+      }
+    }
+  
+  }
+  

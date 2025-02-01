@@ -1,0 +1,41 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      // Target JavaScript version
+      "target": "ES2020",
+      
+      // Module system to use
+      "module": "ESNext",
+      
+      // Enable React JSX handling
+      "jsx": "react-jsx",
+      
+      // Module resolution strategy
+      "moduleResolution": "node",
+      
+      // Allow JavaScript files
+      "allowJs": true,
+      
+      // Enable strict type checking
+      "strict": true,
+      
+      // Skip type checking of declaration files
+      "skipLibCheck": true,
+      
+      // Enable importing JSON files
+      "resolveJsonModule": true,
+      
+      // Allow default imports from modules
+      "allowSyntheticDefaultImports": true,
+      
+      // Ensure each file can be safely transpiled
+      "isolatedModules": true,
+      
+      // Don't emit files (Vite handles this)
+      "noEmit": true
+    },
+    // Files to include/exclude
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }
+  

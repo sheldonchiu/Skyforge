@@ -1,0 +1,30 @@
+{
+    "sections": [
+      {
+        "id": "personal",
+        "title": "Personal Information",
+        "fields": [
+          {
+            "id": "firstName",
+            "type": "text",
+            "label": "First Name",
+            "required": true,
+            "validation": {
+              "minLength": 2,
+              "maxLength": 50
+            }
+          },
+          {
+            "id": "email",
+            "type": "email",
+            "label": "Email Address",
+            "required": true,
+            "validation": {
+              "pattern": "email"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

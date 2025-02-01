@@ -1,0 +1,64 @@
+{
+    "nav": {
+        "home": "主页",
+        "controlPanel": "控制面板"
+      },
+    "home": {
+      "title": "选择您的云平台",
+      "subtitle": "选择您偏好的云平台开始环境配置",
+      "backButton": "返回平台选择"
+    },
+    "platforms": {
+      "paperspace": {
+        "name": "Paperspace",
+        "description": "提供订阅制和按需付费的GPU云平台"
+      },
+      "vastai": {
+        "name": "Vast.ai",
+        "description": "以最低价格租用GPU进行机器学习和AI任务"
+      },
+      "hengyuan": {
+        "name": "恒源云",
+        "description": "以最低价格租用GPU进行机器学习和AI任务"
+      }
+    },
+    "selected": "已选择",
+    "paperspace": {
+      "apiKey": "API密钥",
+      "apiKeyPlaceholder": "输入您的Paperspace API密钥",
+      "apiKeyHelp": "您可以在Paperspace控制台的API密钥页面找到您的API密钥。",
+      "tabs": {
+        "login": "登录",
+        "gpu": "GPU选择",
+        "environment": "环境配置",
+        "control": "控制面板"
+      },
+      "syncGPUs": "同步可用GPU",
+      "syncing": "同步中...",
+      "noGPUs": "暂无可用GPU。点击同步获取可用GPU。",
+      "gpuUnavailable": "(当前不可用，可能需要等待)",
+      "gpuNotUsable": "(您的订阅级别不支持使用)",
+      "errors": {
+        "syncFailed": "同步GPU列表失败。请重试。"
+      },
+      "envPlaceholder": "环境配置面板即将推出。",
+      "controlPlaceholder": "控制面板即将推出。",
+      "auth": {
+        "title": "登录 Paperspace",
+        "email": "邮箱",
+        "emailPlaceholder": "输入您的邮箱",
+        "password": "密码",
+        "passwordPlaceholder": "输入您的密码",
+        "passwordHelp": "使用您的 Paperspace 账户密码",
+        "login": "登录",
+        "authenticating": "登录中...",
+        "createAccount": "创建账户",
+        "forgotPassword": "忘记密码？",
+        "error": "邮箱或密码无效",
+        "loggedInAs": "已登录为",
+        "notLoggedIn": "未登录",
+        "logout": "退出登录"
+      }
+    }
+  }  
+  
